@@ -6,7 +6,8 @@ class Book
   def initialize(title)
     @title = title 
   end 
-  def turn_page
+  def turn_page(returnString)
+    returnString
     #Turn Page  
   end
 end 
