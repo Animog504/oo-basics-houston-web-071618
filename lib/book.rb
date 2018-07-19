@@ -1,6 +1,6 @@
 class Book
   
-  attr_reader :authorName, :pageCount, :genre 
+  attr_reader :title, :authorName, :pageCount, :genre 
   
   
   def initialize(title)
